@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller / Build / Distribuição / Instaladores (binários pesados)
+build/
+dist/
+distribuicao/
+dist_instalador/
+instalador/installer/
+motor/
+*.exe
+*.msi
+
+# Arquivos de backup locais
+*_backup*.py
+
+# Saídas geradas e arquivos de teste/dados locais
+*.pdf
+*.xlsx
+*.xls
+inbetta_label_engine_config.json
+teste.txt
+Path
+
+# Sistema operacional / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
